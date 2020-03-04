@@ -3,6 +3,7 @@ import React from 'react';
 import './Css/App.css';
 import { Switch, Route } from 'react-router-dom'
 import Main from './Pages/index';
+import Login from './Pages/Login'
 
 
 
@@ -10,7 +11,8 @@ function App() {
   return (
     <div className="App">
     <Switch>
-      <Route path ="/" component={Main} / >
+      <Route exact path ="/" component={Main} />
+      <Route path ="/login" component={Login}/>
     </Switch>
     </div>
   );

@@ -17,7 +17,7 @@ import media, { generateMedia } from "styled-media-query";
           
           <div className="header-top">
             <Logo src={logo}/>
-            <NavLink to="" className="signedIn-btn">
+            <NavLink to="/login" className="signedIn-btn">
             Sign In
           </NavLink>
           </div>
